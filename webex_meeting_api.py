@@ -22,7 +22,7 @@ end_date = "2024-03-30"
 url = f"https://webexapis.com/v1/recordings?from={begin_date}T01:00:00.000Z&to={end_date}T23:59:00.000Z&max=100"
 
 
-access_token = "MWVjOWJiMjktYTlkMS00ZTBhLWFjNzktZDNmNjRmYjJmZjM1ZDM0ZDM3MWItM2Q1_PF84_9e0f5026-c7df-4241-8b3a-c2d4fe59e5d0"
+access_token = ""
 
 header = {"Authorization" : "Bearer " + access_token}
 response = requests.get(url=url, headers=header)
