@@ -65,8 +65,8 @@ def update_hunt_group(locationId, huntGroupId, body_params):
 
     body_params = {
         "agents": [
-            {"id": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS8xYzhlYWViNy1jNTRlLTQ4MjUtOWM5ZS00MWRlYmU2NzE1NmU"},
-            {"id": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS9jOGY3M2UzNi02NmY0LTRkNzQtYjhjMS02ZDhmODI1Y2Q1MWQ"}     
+            {"id": ""},
+            {"id": ""}     
             ]
     }
     header = {"Authorization" : "Bearer " + access_token}
