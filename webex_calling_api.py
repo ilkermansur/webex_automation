@@ -61,7 +61,7 @@ def update_hunt_group(locationId, huntGroupId, body_params):
 
     url = f"https://webexapis.com/v1/telephony/config/locations/{locationId}/huntGroups/{huntGroupId}"
 
-    access_token = "YTE5M2JiNGEtMDIyOS00ZTJjLWIzNGEtYmMwNjYxOWM3YmI4MTg0MzgwMTctMjgy_PF84_9e0f5026-c7df-4241-8b3a-c2d4fe59e5d0"
+    access_token = ""
 
     body_params = {
         "agents": [
