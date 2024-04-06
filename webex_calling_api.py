@@ -17,7 +17,7 @@ import json
 import re
 import pprint
 
-access_token = "MWVjOWJiMjktYTlkMS00ZTBhLWFjNzktZDNmNjRmYjJmZjM1ZDM0ZDM3MWItM2Q1_PF84_9e0f5026-c7df-4241-8b3a-c2d4fe59e5d0"
+access_token = ""
                
 header = {"Authorization" : "Bearer " + access_token}
 
