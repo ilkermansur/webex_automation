@@ -9,6 +9,8 @@ GitHub: github.com/ilkermansur
 
 get_user_list() function returns the list of users in the Webex organization.
 get_auto_atendant_list() function returns the list of auto attendants in the Webex organization.
+get_hunt_group_list() function returns the list of hunt group list in the webex organization.
+update_hunt_group(locationId, huntGroupId, body_params) functions update
 
 """
 
